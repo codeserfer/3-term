@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1384672017 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/childrens/main.cpp
+	<iostream>
+	<vector>
+
