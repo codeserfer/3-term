@@ -1,0 +1,35 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+//int X[100];
+vector<int> x;
+int n;
+void swap (int a,int b) {
+    int t=x[a];
+    x[a]=x[b];
+    x[b]=t;
+}
+
+void generate (int k) {
+    if (k==n) {
+        for (int i=0;i<n;i++) std::cout<<x[i]<<" ";
+        std::cout<<"\n";
+    }
+    else {
+        for(int j=k;j<n;j++) {
+            swap(k,j);
+            generate(k+1);
+            swap(k,j);
+        }
+    }
+}
+
+int main() {
+    std::cout<<"Enter the amount of numbers\n";
+    std::cin>>n;
+    x.resize (n);
+    for (int i=0;i<n;i++)
+        x[i]=i+1;
+    generate(0);
+}

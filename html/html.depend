@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1383509184 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/html/main.cpp
+	<iostream>
+	"include/html.h"
+	<cstring>
+
+1383169363 /mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/html/include/html.h
+	<string>
+	<vector>
+	<iostream>
+
+1383509696 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/html/src/html.cpp
+	"../include/html.h"
+	<stdarg.h>
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<fstream>
+

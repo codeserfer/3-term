@@ -1,0 +1,16 @@
+#ifndef MATRIX_H
+#define MATRIX_H
+
+
+class matrix
+{
+    public:
+        matrix(int, int);
+        ~matrix();
+    protected:
+    private:
+        int** matrix;
+        int m, n;
+};
+
+#endif // MATRIX_H

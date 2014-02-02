@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1381146693 source:/home/codeserfer/Code::Blocks/time_from_1970/main.cpp
+	<iostream>
+	"include/date.h"
+
+1381143658 /home/codeserfer/Code::Blocks/time_from_1970/src/date.cpp
+	"../include/date.h"
+	<iostream>
+
+1381146385 /home/codeserfer/Code::Blocks/time_from_1970/include/date.h
+
+1381146562 source:/home/codeserfer/Code::Blocks/time_from_1970/src/date.cpp
+	<iostream>
+	"../include/date.h"
+
+1382301796 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/time_from_1970/src/date.cpp
+	<iostream>
+	"../include/date.h"
+
+1382301796 /mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/time_from_1970/include/date.h
+
+1382301855 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/time_from_1970/main.cpp
+	<iostream>
+	"include/date.h"
+
+1387197090 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/time_from_1970/main.cpp
+	<iostream>
+	"include/date.h"
+
+1387196727 /mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/time_from_1970/include/date.h
+
+1387196901 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/time_from_1970/src/date.cpp
+	<iostream>
+	"../include/date.h"
+

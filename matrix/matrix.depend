@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1382356747 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/matrix/main.cpp
+	<iostream>
+	"include/matrix.h"
+
+1382356764 /mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/matrix/include/matrix.h
+
+1384770848 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/matrix/main.cpp
+	<iostream>
+	"include/matrix.h"
+
+1382356764 /mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/matrix/include/matrix.h
+
+1384722307 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/matrix/src/matrix.cpp
+	"../include/matrix.h"
+	<iostream>
+
+1384770848 source:/home/codeserfer/Code_Blocks/matrix/main.cpp
+	<iostream>
+	"include/matrix.h"
+
+1382356764 /home/codeserfer/Code_Blocks/matrix/include/matrix.h
+
+1387209002 source:/home/codeserfer/Code_Blocks/matrix/src/matrix.cpp
+	"../include/matrix.h"
+	<iostream>
+

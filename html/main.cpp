@@ -1,0 +1,24 @@
+#include <iostream>
+#include "include/html.h"
+#include <cstring>
+
+using namespace std;
+
+
+
+int main() {
+{
+    html q;
+    if (!q.loadfile()) cout << "error while reading file\n";
+    q.add_text ("My little text!\n");
+    cout << q;
+    q.add_tag (1, 1, 1);
+    q.add_tag (2, 2, 2);
+    q.add_tag (3, 0, 3);
+    q.add_tag (55, 1, 6);
+    q.test ();
+}
+std::cout << "end\n";
+    return 0;
+}
+

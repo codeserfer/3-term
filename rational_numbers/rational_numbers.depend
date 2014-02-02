@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1381131227 source:/home/codeserfer/Code::Blocks/rational_numbers/main.cpp
+	<iostream>
+	"src/Rational.cpp"
+
+1381131254 /home/codeserfer/Code::Blocks/rational_numbers/include/Rational.h
+
+1381131227 /home/codeserfer/Code::Blocks/rational_numbers/src/Rational.cpp
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<math.h>
+	"../include/Rational.h"
+
+1381131227 source:/home/codeserfer/Code::Blocks/rational_numbers/src/Rational.cpp
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<math.h>
+	"../include/Rational.h"
+
+1387131616 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/rational_numbers/main.cpp
+	<iostream>
+	"include/Rational.h"
+
+1387131598 /mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/rational_numbers/include/Rational.h
+	<iostream>
+
+1387131596 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/rational_numbers/src/Rational.cpp
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<math.h>
+	"../include/Rational.h"
+

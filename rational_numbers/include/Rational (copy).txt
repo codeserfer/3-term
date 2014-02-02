@@ -1,0 +1,30 @@
+#pragma once
+#include <iostream>
+
+using namespace std;
+class Rational {
+private:
+	int m; //÷èñëèòåëü
+	int n; //çíàìåíàòåëü
+	void save (int, int); //ñîõðàíÿåò ÷èñëèòåëü è çíàìåíàòåëü â íåñîêðàòèìîì âèäå
+	int del (int, int); //ïîèñê îáùåãî äåëèòåëÿ
+public:
+	//Rational(void);
+	Rational (int, int);
+	~Rational(void);
+	Rational mult (Rational, Rational); //Óìíîæåíèå äâóõ ðàöèîíàëüíûõ ÷èñåë.
+	Rational mult (Rational, int); //Óìíîæåíèå ðàöèîíàëüíîãî è öåëîãî
+	Rational divis (Rational, Rational); //Äåëåíèå äâóõ ðàöèîíàëüíûõ ÷èñåë.
+	Rational sum (Rational, Rational); //Ñëîæåíèå äâóõ ðàöèîíàëüíûõ ÷èñåë.
+	Rational sum (Rational, int);
+	Rational diff (Rational, Rational); //Âû÷èòàíèå äâóõ ðàöèîíàëüíûõ ÷èñåë.
+	void print1 (); //Ïå÷àòü ðàöèîíàëüíûõ ÷èñåë â âèäå à/b
+    friend ostream& operator<< (ostream& out, Rational a) {
+        out<<m<<"/"<<n;
+        return out;
+    }
+	void print2 (); //Ïå÷àòü ðàöèîíàëüíûõ ÷èñåë â ôîðìàòå ñ ïëàâàþùåé òî÷êîé.
+	int compare (Rational, Rational);
+	int z (Rational);
+
+};

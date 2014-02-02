@@ -1,0 +1,22 @@
+#ifndef DATE_H
+#define DATE_H
+
+
+class date {
+private:
+	int day;
+	int month;
+	int year;
+	int hours;
+	int minutes;
+	int sec;
+	int monthtoday (int);
+public:
+	date(void);
+	date(int, int, int, int, int, int);
+	int get_sec ();
+	void todate (int);
+	date sum (date, date);
+};
+
+#endif // DATE_H

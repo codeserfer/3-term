@@ -1,0 +1,32 @@
+#include <iostream>
+#include "include/complex.h"
+
+using namespace std;
+
+int main() {
+
+    complex a (2, 5);
+    complex b (1.4, 9);
+    complex c=a+b;
+    complex d=a-b;
+    complex e=a*b;
+    complex f=a/b;
+    cout << c<<endl<<d<<endl<<e<<endl<<f<<endl;
+    a*=b;
+    cout << a<<endl;
+    b+=2;
+    cout<<b<<endl;
+    if (b) cout << "true";
+    else cout << "false";
+    cout << endl;
+    complex z;
+    if (z) cout << "true";
+    else cout << "false";
+
+    complex h;
+    cin >>h;
+    h++;
+    cout << h;
+    cout << endl;
+    return 0;
+}

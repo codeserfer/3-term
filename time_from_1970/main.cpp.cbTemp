@@ -1,0 +1,14 @@
+#include <iostream>
+#include "include/date.h"
+
+
+int main () {
+	date q (5, 11, 1989, 19, 3, 12);
+	std::cout << "date 12.2.2011 to sec is "<<q.get_sec ()<<std::endl;
+	q.todate (q.get_sec ());
+
+    date a (21, 10, 2013, 0, 40, 0);
+    date b (0, 0, 0, 2, 4, 23);
+    a.sum (a, b);
+	return 0;
+}

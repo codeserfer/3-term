@@ -1,0 +1,19 @@
+#include <iostream>
+#include "include/html.h"
+#include <fstream>
+#include <cstring>
+
+using namespace std;
+
+
+
+int main() { {
+    
+    if (!loadfile()) cout << "error while reading file\n";
+
+    //html q;
+}
+std::cout << "end\n";
+    return 0;
+}
+

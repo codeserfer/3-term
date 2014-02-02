@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1382365576 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/complex_numbers/main.cpp
+	<iostream>
+	"include/complex.h"
+
+1382366182 /mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/complex_numbers/include/complex.h
+	<iostream>
+
+1382364861 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/complex_numbers/src/complex.cpp
+	"../include/complex.h"
+
+1387134396 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/complex_numbers/src/complex.cpp
+	"../include/complex.h"
+
+1387134376 /mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/complex_numbers/include/complex.h
+	<iostream>
+
+1387133548 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/complex_numbers/main.cpp
+	<iostream>
+	"include/complex.h"
+

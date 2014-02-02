@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1381150748 source:/home/codeserfer/Code::Blocks/polynomial/main.cpp
+	<iostream>
+	"include/polynomial.h"
+
+1381135414 /home/codeserfer/Code::Blocks/polynomial/src/polynomial.cpp
+	"../include/polynomial.h"
+	<iostream>
+
+1381150459 /home/codeserfer/Code::Blocks/polynomial/include/polynomial.h
+
+1381154435 source:/home/codeserfer/Code::Blocks/polynomial/src/polynomial.cpp
+	<iostream>
+	"../include/polynomial.h"
+	<cmath>
+
+1381156864 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/polynomial/main.cpp
+	<iostream>
+	"include/polynomial.h"
+
+1382303536 /mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/polynomial/include/polynomial.h
+
+1382303536 source:/mnt/windows-7/Users/codeserfer/Dropbox/Учеба/ООП/Code::Blocks/polynomial/src/polynomial.cpp
+	<iostream>
+	"../include/polynomial.h"
+	<cmath>
+
+1387204420 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/polynomial/main.cpp
+	<iostream>
+	"include/polynomial.h"
+	<vector>
+
+1387203233 /mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/polynomial/include/polynomial.h
+	<vector>
+
+1387204362 source:/mnt/windows-7/Users/codeserfer/Dropbox/Code_Blocks/polynomial/src/polynomial.cpp
+	<iostream>
+	"../include/polynomial.h"
+	<cmath>
+
